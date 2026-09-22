@@ -50,7 +50,7 @@ public class Ejercicio1 {
             }
         }
 
-        System.out.println("\n===R ===");
+        System.out.println("\n===RESULTADOS===");
         System.out.println("Total de paquetes procesados: " + totalPaquetes);
         System.out.println("Promedio de paquetes por hora: " + promedio);
         System.out.println("Hora con menor producción: Hora " + horaMenor + " (con " + menorCantidad + " paquetes)");
