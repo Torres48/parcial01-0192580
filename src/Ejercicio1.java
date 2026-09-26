@@ -11,7 +11,7 @@ public class Ejercicio1 {
         for (int i = 0; i < 10; i++) {
             int valor;
             do {
-                System.out.print("Ingrese paquetes procesados en la hora " + (i + 1) + ": ");
+                System.out.print("Ingrese paquetes procesados en la hora" + (i + 1) + ": ");
                 valor = scanner.nextInt();
                 if (valor < 0) {
                     System.out.println("Error: La cantidad no puede ser negativa. Intente de nuevo.");
@@ -26,7 +26,6 @@ public class Ejercicio1 {
 
         int menorCantidad = paquetes[0];
         int horaMenor = 1;
-
         for (int i = 1; i < 10; i++) {
             if (paquetes[i] < menorCantidad) {
                 menorCantidad = paquetes[i];
